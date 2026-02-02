@@ -9,6 +9,7 @@ header {
   background-color: #192F60;
   color: white;
   margin-top: 10px;
+  border-radius: 20px 20px 0 0;
 }
 
 h1, h3 {
@@ -21,6 +22,7 @@ div {
   display: flex;
   background-color: #FAC559;
   height: 160px;
+  border-radius: 0 0 20px 20px;
 }
 
 ul {
@@ -34,10 +36,13 @@ li {
   width: 244px;
   padding: 2px 8px 2px 2px;
   margin: 4px 10px 4px 0;
+  border: #192F60 1px solid;
+  border-radius: 8px;
 }
 
 main {
   width: auto;
+  overflow: auto;
 }
 
 
